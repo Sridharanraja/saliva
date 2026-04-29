@@ -5,7 +5,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # --- Configuration ---
-MODEL_PATH = "./weight/best_P_and_NP_V2.pt" 
+MODEL_PATH = "./weight/best_P_and_NP_V2_600.pt" 
 
 @st.cache_resource
 def load_model():
